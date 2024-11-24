@@ -160,6 +160,7 @@ const ToDoAPI = () => {
                                     ...listItem,
                                     label: inputValue
                                 });
+                                setInputValue("")
                             }
 								 	
 						}}
